@@ -1,0 +1,98 @@
+$background: url('./assets/background.jpg');
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	background: $background; 
+	background-size: auto;
+}
+.session {
+	position: absolute;
+	top: 20%;
+}
+.session_card {
+	background: rgba(000,000,000, 0.6) !important;
+	&:hover {
+		background: #000 !important;
+		transition: 0.7s ease;
+	}
+}
+h5 , h6 {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.detail {
+	background: rgba(000,000,000, 0.6) !important;
+}
+hr {
+	background: rgba(255,255,255, 0.3);
+	margin: 0px !important;
+}
+.hr_vertical {
+	border: none;
+    border-left: 0.2px solid rgba(255,255,255, 0.3);
+    height: 35vh;
+    width: 0.3px; 
+}
+.arrow {
+	font-size: 35px;
+	color: #ccc;
+	cursor: pointer;
+}
+.hr_vertical_two {
+	border: none;
+    border-left: 0.2px solid rgba(255,255,255, 0.3);
+    height: 45vh;
+    width: 0.3px; 
+}
+.button_detail {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 25px;
+	border-radius: 5px !important;
+	&:hover {
+		background-color: #da581c;
+		transition: 0.5s ease;
+	}
+}
+.navbar_zindex {
+	z-index: 1;
+	background: rgba(000,000,000, 1) !important;
+}
+.img_logo {
+	width: 80px;
+	border-radius: 5px;
+}
+.icon_navbar {
+	width: 40px !important;
+	height: 40px !important;
+}
+ul {
+	margin: 0px 20px 0px 20px;
+}
+li h4 {
+	color: #fff !important;
+	padding: 10px !important;
+	font-size: 15px;
+	font-family: 'Oswald', sans-serif;
+	cursor: pointer;
+	&:hover {
+		color: #ccc !important;
+	}
+}
+.title_detail {
+	text-align: center;
+	color: #fff;
+	padding: 12px 00px 12px;
+}
+.title_session {
+	font-family: 'Oswald', sans-serif;
+}
